@@ -1,0 +1,161 @@
+:root {
+    --base-color:  rgb(248, 173, 33);
+    --base-border: rgb(179, 124, 6);
+}
+
+body {
+    background-color: rgb(245, 187, 81);
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px rgb(246, 246, 37);
+    align-items: center;
+    background-color:rgb(246, 248, 137);
+}
+
+header, main, .hero {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 { 
+    color: rgb(160, 104, 0);
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    color:rgb(89, 88, 88);
+    text-decoration: none;
+    padding: 7px;
+
+}
+
+nav a:hover {
+    text-decoration: none;
+    color:rgb(189, 186, 186);
+    padding:7px;
+}
+
+.hero {
+    background-image: url(../images/hero-background.jpg);
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    background-color: var(--base-color);
+    color:rgb(255, 255, 255);
+    margin: 15px;
+    padding: 20px;
+    border-radius:  10px;
+}
+
+.hero-content h2 {
+    font-size: 30px;
+}
+
+.hero-content p {
+    font-size: 20px;
+}
+
+.product {
+    display: flex;
+    border: solid 1px var(--base-border);
+    margin: 20px 0;
+    background-color: var(--base-color);
+}
+
+.product h5 {
+    font-size: 18px;
+    max-width: 10ch;
+}
+
+.product-details {
+    margin: 20px;
+}
+
+.product-details h2, h3, h4 {
+    font-size: 25px;
+}
+
+.product-specs li {
+    margin: 7px;
+}
+
+.product-specs ol {
+    list-style: none;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.product-actions {
+    margin: 10px;
+}
+
+.product-description {
+    line-height: 1.5;
+    font-size: 18px;
+    max-width: 60ch;
+}
+
+.product-image-packaging {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.store {
+    display:flex;
+    border: solid 1px var(--base-border);
+    margin: 20px 0;
+    background-color: var(--base-color);
+}
+
+.store h2 {
+    max-width: 50ch;
+    min-width: 14ch;
+    margin: 15px
+}
+
+.order {
+    margin: 30px;
+}
+
+.pricing {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.add-to-cart, .wishlist {
+    padding: 20px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+.add-to-cart {
+    background-color: #b98e00;
+    color:#f4f2f3;
+}
+
+.add-to-cart:hover {
+    color: rgb(243, 243, 23);
+}
+
+.wishlist:hover {
+    color: rgb(236, 158, 12);
+}
+
+footer {
+    text-align: center;
+}
