@@ -69,51 +69,52 @@ nav a:hover {
     font-size: 20px;
 }
 
-.Album {
-    display: flex;
+.album {
     border: solid 1px var(--base-border);
     margin: 20px 0;
     background-color: var(--base-color);
+    display: flex;
+    align-items: center;
 }
 
-.Album-image-display {
+.album-image-display {
     max-width: 500px;
     max-height: 500px;
 }
 
-.Album h5 {
+.album h5 {
     font-size: 18px;
     max-width: 10ch;
 }
 
-.Album-details {
+.album-details {
     margin: 20px;
 }
 
-.Album-details h2, h3, h4 {
+.album-details h2, h3, h4 {
     font-size: 25px;
 }
 
-.Album-specs li {
+.album-specs li {
     margin: 7px;
 }
 
-.Album-specs ol {
+.album-specs ol {
     font-size: 25px;
     text-decoration: none;
 }
 
-.Album-actions {
+.album-actions {
     margin: 10px;
 }
 
-.Album-description {
+.album-description {
     line-height: 1.5;
     font-size: 18px;
     max-width: 60ch;
 }
 
-.Album-image-packaging {
+.album-image-packaging {
     max-width: 500px;
     max-height: 500px;
 }
