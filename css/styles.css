@@ -88,7 +88,7 @@ nav a:hover {
     display: flex;
 }
 
-.album-image-display, .album-image-details {
+.album-image-front, .band-image, .album-image-back {
     max-width: 500px;
     max-height: 500px;
 }
@@ -128,6 +128,10 @@ nav a:hover {
     font-size: 18px;
     max-width: 60ch;
 }
+.album-insert {
+    max-width: 1200px;
+    max-height: 700px;
+}
 
 .store {
     display:flex;
@@ -159,16 +163,16 @@ nav a:hover {
 }
 
 .add-to-cart {
-    background-color: #b98e00;
+    background-color: rgb(0, 184, 58);
     color:#f4f2f3;
 }
 
 .add-to-cart:hover {
-    color: rgb(243, 243, 23);
+    color: rgb(3, 247, 80);
 }
 
 .wishlist:hover {
-    color: rgb(236, 158, 12);
+    color: rgb(3, 247, 80);
 }
 
 footer {
