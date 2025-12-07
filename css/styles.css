@@ -23,6 +23,7 @@ body {
 
 p {
     font-family: "EB Garamond", serif;
+    text-wrap: balance;
 }
 
 header {
@@ -81,6 +82,7 @@ nav a:hover {
     margin: 15px;
     padding: 20px;
     border-radius:  10px;
+    opacity: 90%;
 }
 
 .hero-content h2 {
@@ -214,6 +216,7 @@ footer {
     border: var(--base-border);
     align-items: center;
     background-color: var(--base-color);
+    margin: 15px
 }
 
 .album-video {
