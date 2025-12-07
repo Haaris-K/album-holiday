@@ -93,13 +93,17 @@ nav a:hover {
     max-height: 500px;
 }
 
+.album h2 {
+    margin: 4px;
+}
+
 .album h5 {
     font-size: 18px;
     max-width: 10ch;
 }
 
 .album-details {
-    margin: 20px;
+    margin: 15px;
 }
 
 .album-details h2, h3, h4 {
@@ -107,11 +111,11 @@ nav a:hover {
 }
 
 .album-specs li {
-    margin: 7px;
+    margin: 3px;
 }
 
 .album-specs ol {
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -123,11 +127,6 @@ nav a:hover {
     line-height: 1.5;
     font-size: 18px;
     max-width: 60ch;
-}
-
-.album-image-packaging {
-    max-width: 500px;
-    max-height: 500px;
 }
 
 .store {
@@ -156,7 +155,7 @@ nav a:hover {
     padding: 20px 20px;
     font-size: 16px;
     border-radius: 10px;
-    font-family: "Playfair Display", serif;
+    font-family: "Bellefair", serif;
 }
 
 .add-to-cart {
@@ -179,3 +178,8 @@ footer {
     align-items: center;
     background-color: var(--base-color);
 }
+
+.album-video {
+    margin: 15px;
+}
+
